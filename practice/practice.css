@@ -1,0 +1,41 @@
+body,
+html {
+    margin: 0;
+}
+
+nav {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.menu-item {
+    display: inline-block;
+    background-color: black;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    background-color: pink;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+
+}
+
+.menu-item:hover,
+.menu-item:focus {
+    background: white;
+}
+
+.menu-item:hover .item {
+    color: black
+}
