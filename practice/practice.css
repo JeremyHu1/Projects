@@ -1,41 +1,46 @@
-body,
-html {
-    margin: 0;
+.container {
+    background-color: beige;
+    width: 80%;
+    height: 500px;
+    padding: 25px;
+    margin: 50px 75px;
 }
 
-nav {
-    margin: 0 auto;
-    width: 60%;
+.background {
+    background-color: purple;
+    width: 50%;
+    height: 100px;
+    position: fixed;
+    top: 0;
 }
 
-.menu-item {
-    display: inline-block;
-    background-color: black;
-    border-radius: 4px;
-    text-align: center;
-}
-
-.menu {
+.list {
     list-style-type: none;
-    background-color: pink;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    background-color: limegreen;
 }
 
 .item {
+    color: black;
     text-decoration: none;
-    color: white;
-    padding: 10px 20px;
+    padding: 20px;
     display: inline-block;
-
+    text-align: center;
+    margin: 5px;
 }
 
-.menu-item:hover,
-.menu-item:focus {
-    background: white;
+.item:hover {
+    background-color: red;
 }
 
-.menu-item:hover .item {
-    color: black
+.rightbox {
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    padding: 20px;
+    float: right;
+    margin: 20px;
 }
