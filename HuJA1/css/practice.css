@@ -37,16 +37,22 @@ header {
 }
 
 #top-image {
-    background-image: url(/HuJA1/img/mountain.jpg);
-    background-repeat: no-repeat;
-    height: 150px;
+    height: 120px;
     width: 1250px;
-    background-size: cover;
-    background: repeating-linear-gradient(to right,
-            #039BE5 0px,
-            #039BE5 20px,
-            #90CAF9 20px,
-            #90CAF9 40px);
+    background: url(/HuJA1/img/mountain.jpg) no-repeat center / cover;
+}
+
+#dividers {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 100%;
+}
+
+#dividers div {
+    background-color: cadetblue;
+    width: 20px;
+
 }
 
 .top-header h1 {
@@ -61,4 +67,31 @@ header {
 
 .top-header {
     padding: 20px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+.side-bar img {
+    height: 50vh;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+main>img {
+    width: 75vw;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+main img {
+    border-radius: 25px;
 }
